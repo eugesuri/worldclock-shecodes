@@ -1,6 +1,63 @@
+select {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+}
 body {
-  background: white;
+  background-color: #f9f7fe;
 }
 footer {
   text-align: center;
+  font-size: 16px;
+  font-family: fantasy;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: sans-serif;
+  margin: 0 0 10px;
+  font-size: 28px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  padding: 20 px 0;
+}
+.city:last-child {
+  border: none;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+
+  vertical-align: middle;
+}
+
+.date {
+  opacity: 0.7;
+  font-family: cursive;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
